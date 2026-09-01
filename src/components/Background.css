@@ -1,0 +1,14 @@
+.background_container {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.grid_cell {
+  border-right: 1px solid rgba(158, 234, 247, 0.05);
+  border-bottom: 1px solid rgba(158, 234, 247, 0.05);
+  background-color: transparent;
+}
