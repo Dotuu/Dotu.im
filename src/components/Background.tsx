@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from "react";
 import "./Background.css";
 
-const CELL_SIZE: number = 32;
+const CELL_SIZE: number = 16;
 const FADE_MS: number = 1000;
 
 export const Background = () => {
@@ -34,7 +34,8 @@ export const Background = () => {
 
       el.animate(
         [
-          { backgroundColor: "rgba(255, 255, 255, 0.9)" },
+          { backgroundColor: "rgba(0, 8, 81, 0.6)" },
+          // { backgroundColor: "rgba(28, 181, 224, 0.6)" },
           { backgroundColor: "rgba(255, 255, 255, 0)" },
         ],
         { duration: FADE_MS, easing: "ease-out" },
