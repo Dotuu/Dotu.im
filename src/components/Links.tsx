@@ -1,4 +1,3 @@
-import { a, div } from "motion/react-client";
 import { getIcon } from "./Icon";
 import "./Links.css";
 
@@ -20,7 +19,7 @@ export const Links = () => {
       {links.map((link) => {
         const Icon = getIcon(link.name.toLowerCase());
         return (
-          <a key={link.name} href={link.redir}>
+          <a key={link.name} href={link.redir} target={"_blank"}>
             {Icon && <Icon />}
             {link.name}
           </a>
