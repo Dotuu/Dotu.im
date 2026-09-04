@@ -1,4 +1,3 @@
-import React from "react";
 import meetuImage from "../assets/meetu.png";
 import "./MeetuImage.css";
 import * as motion from "motion/react-client";
