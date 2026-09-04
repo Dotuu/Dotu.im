@@ -34,9 +34,9 @@ export const Background = () => {
 
       el.animate(
         [
-          { backgroundColor: "rgba(0, 8, 81, 0.6)" },
-          // { backgroundColor: "rgba(28, 181, 224, 0.6)" },
-          { backgroundColor: "rgba(255, 255, 255, 0)" },
+          { backgroundColor: "rgba(168, 85, 247, 0.55)" },
+          // { backgroundColor: "rgba(45, 212, 191, 0.5)" },
+          { backgroundColor: "rgba(168, 85, 247, 0)" },
         ],
         { duration: FADE_MS, easing: "ease-out" },
       );

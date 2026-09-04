@@ -8,7 +8,7 @@
 }
 
 .grid_cell {
-  border-right: 1px solid rgba(158, 234, 247, 0.05);
-  border-bottom: 1px solid rgba(158, 234, 247, 0.05);
+  border-right: 1px solid rgba(168, 85, 247, 0.06);
+  border-bottom: 1px solid rgba(168, 85, 247, 0.06);
   background-color: transparent;
 }

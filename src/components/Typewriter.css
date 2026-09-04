@@ -1,0 +1,38 @@
+.title {
+  font-size: clamp(3rem, 12vw, 8rem);
+  text-align: center;
+  margin: 0px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  padding: 5px;
+
+  background: linear-gradient(
+    180deg,
+    var(--color-first, #1cb5e0) 0%,
+    var(--color-second, #000851) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  text-shadow:
+    0 0 24px rgba(45, 212, 191, 0.35),
+    0 0 48px rgba(168, 85, 247, 0.4);
+}
+
+.cursor {
+  background: linear-gradient(
+    180deg,
+    var(--color-first, #2dd4bf) 0%,
+    var(--color-second, #a855f7) 100%
+  );
+  background-clip: text;
+  color: transparent;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
