@@ -2,7 +2,7 @@ const desc: string[] = [
   "Gores demon",
   "Giga chad",
   "Nerdddddd",
-  "DDnet demon",
+  "DDNet demon",
   "Loving husband",
   "A little fat",
   "ADHD",
